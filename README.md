@@ -11,9 +11,14 @@ June 19 , 2021
 - Printing the List
 - Counting the elements on the List
 - **Due Date : June 27 2021**
-# SB 8 - Record Keeping ( NEED SLIGHT TWEAKING ) 
+# SB 8 - Record Keeping 
 - Implement the use of Dictionary
 - Adding and Removing of Elements
 - Looping the Menu
 - Printing the desired output
 - **Due Date : June 27 2021**
+# SB 9 - Lottery Program
+- Implement math module
+- Randomize combination
+- Guessing the correct combination
+- Counter set for showing results
