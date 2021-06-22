@@ -11,52 +11,38 @@ class my_dictionary(dict):
 def Menu():
 
     dict_obj = my_dictionary()
-    counter = False
     print("Menu:")
     print("[a]:Add Data \n[b]:Delete Data \n[c]:End")
-
-    while counter == False:
-        
-        choice = input("Enter your choice: ")
-        case_choice = choice.casefold()
-
-        if case_choice == 'a':
-
-            dict_obj.key = input("Enter Key: ")
+    isActive = True
+    
+    while isActive == True:
+        user_input = input("Enter your choice:")
+        if user_input == 'a'or user_input == 'A':
+            dict_obj.key = input("Enter Key:")
             dict_obj.value = input("Value:")
             dict_obj.add(dict_obj.key,dict_obj.value)
             print(dict_obj)
-            try_choice = input("Try Again? yes/no: ")
-            t_choice = try_choice.casefold()
-            if t_choice == 'yes':
-                counter = False
-            elif t_choice == 'no':
-                counter = True
-            else:
-                print("Invalid Choice!")
-            print("\n")
-
-        elif case_choice == 'b':
-
-            counter = False
-            dict_obj.key = input("Enter Key: ")
+            
+        elif user_input == 'b' or user_input == 'B':
+            dict_obj.key = input("Enter Key:")
             dict_obj.delete(dict_obj.key)
             print(dict_obj)
-            try_choice = input("Try Again? yes/no: ")
-            t_choice = try_choice.casefold()
-            if t_choice == 'yes':
-                counter = False
-            elif t_choice == 'no':
-                counter = True
-            else:
-                print("Invalid Choice!")
-            print("\n")
-            
-        elif case_choice == 'c':
-            print("THANK YOU")
-            counter = True
+        
+        elif user_input == 'c' or user_input =='C':
+            print("THANK YOU!")
+        
         else:
-            print("Invalid Choice")
-            
+            print("Invalid Input")
+        
+        choice = input("Try again? yes/no:")
+        x = choice.casefold()
+        if x == 'yes':
+            isActive = True
+        elif x == 'no':
+            isActive = False
+        else:
+            print("Invalid input!")
+
+    print(dict_obj)
 
 Menu()
