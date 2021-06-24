@@ -2,32 +2,32 @@ import random
 
 def Main():
 
-    user = []
-    winning = []
-    matched = []
+    user = set()
+    winning = set()
+    matched = set()
     count = 0
 
 
     #For checking of the winning combination
     #for x in range(6):
     #    b = random.randint(1,50)
-    #    winning.append(b)
+    #    winning.add(b)
     #print(winning)   
 
     print("Enter your 6 numbers from 1-50 , one at a time!")
 
     for x in range(6):
         x = int(input())
-        user.append(x)
-
+        user.add(x)
     for x in range(6):
         b = random.randint(1,50)
-        winning.append(b)   
+        winning.add(b)
+             
 
     for x in user:
         for y in winning:
             if x == y:
-                matched.append(x)
+                matched.add(x)
                 count +=1
 
     user = str(user)[1:-1]
