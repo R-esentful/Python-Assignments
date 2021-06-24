@@ -31,3 +31,4 @@ June 21 , 2021
 - Randomize combination
 - Guessing the correct combination
 - Counter set for showing results
+- Used set instead of List ( not following instruction lmao )
