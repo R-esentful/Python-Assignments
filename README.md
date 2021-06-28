@@ -32,3 +32,7 @@ June 21 , 2021
 - Guessing the correct combination
 - Counter set for showing results
 - Used set instead of List ( not following instruction lmao )
+# SB 10 - Module
+- Salary Computation App
+- Import customize module for the app 
+- 
