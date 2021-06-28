@@ -5,14 +5,14 @@ Repository for saving Python Assignments for future reference.
 
 # History 
 
-# June 19 , 2021 
-- SB 7 - Word Bank
-- SB 8 - Record Keeping
-# June 21 , 2021
-- SB 9 - Lottery Program 
-# June 28 2021
-- SB 10 - Module
-- SB 11 - Function
+- June 19 , 2021 
+-- SB 7 - Word Bank
+-- SB 8 - Record Keeping
+- June 21 , 2021
+-- SB 9 - Lottery Program 
+-June 28 2021
+-- SB 10 - Module
+-- SB 11 - Function
 
 ---------------------------------------------------
 
