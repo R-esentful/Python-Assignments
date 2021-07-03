@@ -1,5 +1,8 @@
+import os 
+import sys
+sys.path.append(".")
 #class.py import to utilize or access other function on the python program.
-from Class import PMethod as PM
+from FinalLabExam.Class import PMethod as PM
 
 class Main:
     #Main method for the program
