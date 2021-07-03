@@ -42,7 +42,7 @@ Repository for saving Python Assignments for future reference.
 - Import customize module for the app 
 # SB 11 - Function
 - Utilization of function
-# Final Lab Exam
+# Final Lab Exam ( Python Quiz Game )
 - Utilize Dict, List
 - Checking of answers with the use of for loop
 - Custom utilization of module
