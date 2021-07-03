@@ -13,6 +13,8 @@ Repository for saving Python Assignments for future reference.
 - June 28 2021
 -  SB 10 - Module
 -  SB 11 - Function
+-  July 3, 2021
+-  Final Lab Exam
 
 ---------------------------------------------------
 
@@ -40,3 +42,7 @@ Repository for saving Python Assignments for future reference.
 - Import customize module for the app 
 # SB 11 - Function
 - Utilization of function
+# Final Lab Exam
+- Utilize Dict, List
+- Checking of answers with the use of for loop
+- Custom utilization of module
